@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 
 
 //$module_name_type = basename(__FILE__,'.php');
-//$module_name_type = $params->get('layout',''))[1];
+//$module_name_type = explode(':', $params->get('layout',''))[1];
 $module_name_type = 'def'; //menu layout name
 
 $id = '';
